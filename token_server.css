@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, label, button {
+    width: 100%;
+    margin-top: 10px;
+}
+button {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #365899;
+}
+.lastBtns a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #4267B2;
+}
